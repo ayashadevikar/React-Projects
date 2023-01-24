@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Components/Button"
-import Button from "./Components/UserDetails"
 
-const UserCard = () => {
+
+
+const Button = () => {
     return(
         <>
            <div>Button</div>
@@ -10,4 +10,4 @@ const UserCard = () => {
     );
 }
 
-export default UserCard;
+export default Button;
