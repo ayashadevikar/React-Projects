@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { myContext } from "../App";
 
-const UserCard = () => {
+const UserDetails = () => {
     const data = useContext(myContext);
     return(
         <>
@@ -10,4 +10,4 @@ const UserCard = () => {
     );
 }
 
-export default UserCard;
+export default UserDetails;
