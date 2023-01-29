@@ -1,12 +1,12 @@
 import React from "react";
 
-import UserDetails from "./UserDetails";
+import UserCard from "./UserCard";
 
 const HeroSection = () => {
       return(
         <>
            <img src="https://picsum.photos/200/300" alt="Random Scene" />
-           <UserDetails />
+           <UserCard />
         </>
            
       );

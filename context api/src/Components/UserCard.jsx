@@ -1,6 +1,7 @@
 import React from "react";
-import { Button } from "./Components/Button"
-import UserDetails from "./Components/UserDetails"
+
+import UserDetails from "./UserDetails"
+import { Button } from "./Button"
 
 const UserCard = () => {
     return(
