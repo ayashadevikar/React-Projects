@@ -13,7 +13,7 @@ function App() {
        <Outlet />
        <Cards />
            
-              <div className="flex justify-between">
+              <div className="flex justify-between mt-10">
                 
                    <img src="./images/nature1.jpg" alt="nature"></img>
                    <img src="./images/nature1.jpg" alt="nature"></img>
