@@ -1,9 +1,10 @@
 import React from "react";
 
-const Cards = ({img}) => {
+const Cards = () => {
     return (
         <>
-            
+          
+          
         </>
     );
 };
