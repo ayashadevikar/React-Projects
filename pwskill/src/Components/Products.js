@@ -4,23 +4,25 @@ function Product() {
     return(
         <>
            <h1 className="text-6xl font-bold text-center">Our Products</h1>
-           <div className="grid grid-cols-3 justify-items-center mt-20 mb-20">
+
+           <div className="flex justify-center mt-20 mb-20">
+
                  <div className="flex flex-col gap-y-8 items-center">
                      <img src="neurolab-icon.svg" alt="neurolab-icon"></img>
                      <h1 className="proudctHeading text-2xl font-bold">PW Skills Lab</h1>
-                     <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">Supercharge your project development with our robust lab.</p>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-[20rem] text-center">Supercharge your project development with our robust lab.</p>
                  </div>
 
                  <div className="flex flex-col gap-y-8 items-center -mt-8">
                      <img src="jobPortal-icon.svg" alt="jobPortal-icon"></img>
                      <h1 className="proudctHeading text-2xl font-bold">Job Portal</h1>
-                     <p class="proudctParagraph text-xl text-zinc-500 w-[60%] text-center">Use exceptional templates for a stand-out resume minus the sign up process.</p>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-[19rem] text-center">Use exceptional templates for a stand-out resume minus the sign up process.</p>
                  </div>
 
                  <div className="flex flex-col gap-y-8 items-center -mt-8">
                      <img src="internship-icon.svg" alt="neurolab-icon"></img>
                      <h1 className="proudctHeading text-2xl font-bold">Experience portal</h1>
-                     <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">PW Skills's self-paced experience portal prioritises hands-on training with 570+ internship projects.</p>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-[20rem] text-center">PW Skills's self-paced experience portal prioritises hands-on training with 570+ internship projects.</p>
                  </div>
 
 
@@ -40,6 +42,8 @@ function Product() {
                         <h1 className="proudctHeading text-2xl font-bold">Hall of fame</h1>
                         <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">Our student placements and 100K+ career transitions speak volumes about our courses.</p>
                     </div>
+
+                    
              </div>
         </>
     )
