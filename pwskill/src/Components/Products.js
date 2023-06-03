@@ -3,39 +3,44 @@ import React from "react";
 function Product() {
     return(
         <>
-           <h1 className="text-center">Our Products</h1>
-           <div className="grid grid-cols-3 justify-items-center mt-8 mb-20">
-                 <div className="flex flex-col items-center">
+           <h1 className="text-6xl font-bold text-center">Our Products</h1>
+           <div className="grid grid-cols-3 justify-items-center mt-20 mb-20">
+                 <div className="flex flex-col gap-y-8 items-center">
                      <img src="neurolab-icon.svg" alt="neurolab-icon"></img>
-                     <span>PW Skills Lab</span>
-                     <p class="w-60 text-center">Supercharge your project development with our robust lab.</p>
+                     <h1 className="proudctHeading text-2xl font-bold">PW Skills Lab</h1>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">Supercharge your project development with our robust lab.</p>
                  </div>
 
-                 <div className="flex flex-col items-center">
+                 <div className="flex flex-col gap-y-8 items-center -mt-8">
                      <img src="jobPortal-icon.svg" alt="jobPortal-icon"></img>
-                     <span>Job Portal</span>
-                     <p class="w-64 text-center">Use exceptional templates for a stand-out resume minus the sign up process.</p>
+                     <h1 className="proudctHeading text-2xl font-bold">Job Portal</h1>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-[60%] text-center">Use exceptional templates for a stand-out resume minus the sign up process.</p>
                  </div>
 
-                 <div className="flex flex-col items-center">
+                 <div className="flex flex-col gap-y-8 items-center -mt-8">
                      <img src="internship-icon.svg" alt="neurolab-icon"></img>
-                     <span>Job Portal</span>
-                     <p class="w-64 text-center">PW Skills's self-paced experience portal prioritises hands-on training with 570+ internship projects.</p>
+                     <h1 className="proudctHeading text-2xl font-bold">Experience portal</h1>
+                     <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">PW Skills's self-paced experience portal prioritises hands-on training with 570+ internship projects.</p>
                  </div>
 
 
-                 <div className="flex flex-col items-center">
-                 <img src="affilitatePortal-icon.svg" alt="neurolab-icon"></img>
-                     <span>Job Portal</span>
-                    <p class="w-60 text-center">Explore affiliate marketing opportunities with PW Skills and attain financial freedom.</p>
-                 </div>
-
-                 <div className="flex flex-col items-center">
-                 <img src="halloffame-icon.svg" alt="neurolab-icon"></img>
-                     <span>Job Portal</span>
-                    <p class="w-64 text-center">Our student placements and 100K+ career transitions speak volumes about our courses.</p>
-                 </div>
+                
            </div>
+
+           
+           <div className="flex justify-center gap-x-20 mb-10">
+                   <div className="flex flex-col gap-y-8 items-center">
+                      <img src="affilitatePortal-icon.svg" alt="neurolab-icon" className="h-44"></img>
+                       <h1 className="proudctHeading text-2xl font-bold">Become an affiliate</h1>
+                       <p class="proudctParagraph text-xl text-zinc-500 w-72 text-center">Explore affiliate marketing opportunities with PW Skills and attain financial freedom.</p>
+                    </div>
+
+                    <div className="flex flex-col gap-y-8 items-center mt-2">
+                        <img src="halloffame-icon.svg" alt="neurolab-icon"></img>
+                        <h1 className="proudctHeading text-2xl font-bold">Hall of fame</h1>
+                        <p class="proudctParagraph text-xl text-zinc-500 w-80 text-center">Our student placements and 100K+ career transitions speak volumes about our courses.</p>
+                    </div>
+             </div>
         </>
     )
 }
