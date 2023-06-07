@@ -5,7 +5,7 @@ function Product() {
         <>
            <h1 className="text-6xl font-bold text-center">Our Products</h1>
 
-           <div className="flex justify-center mt-20 mb-20">
+           <div className="flex justify-center mt-20 mb-20 sm:flex flex-col">
 
                  <div className="flex flex-col gap-y-8 items-center">
                      <img src="neurolab-icon.svg" alt="neurolab-icon"></img>
@@ -30,7 +30,7 @@ function Product() {
            </div>
 
            
-           <div className="flex justify-center gap-x-20 mb-10">
+           <div className="flex justify-center gap-x-20 mb-10 sm:flex flex-col">
                    <div className="flex flex-col gap-y-8 items-center">
                       <img src="affilitatePortal-icon.svg" alt="neurolab-icon" className="h-44"></img>
                        <h1 className="proudctHeading text-2xl font-bold">Become an affiliate</h1>

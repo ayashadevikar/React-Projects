@@ -6,7 +6,7 @@ function Card1(){
           <div className="flex flex-col gap-y-4 mt-14">
                <h1 className="text-center">“Pure Hardwork, No Shortcuts!”</h1>
 
-             <div className="icons flex justify-evenly">
+             <div className="icons flex justify-evenly sm:flex flex-col">
                 
                   <div className="flex flex-col justify-center items-center gap-y-4">
                         <img src="books-icon.svg" className="icons-img h-40" alt="books-icon"></img>

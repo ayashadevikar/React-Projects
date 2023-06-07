@@ -14,43 +14,36 @@ function App() {
       <Navbar />
       <Carousel />
       <Card1 />
-       <Courses />
-       <div className='courses flex justify-evenly mt-20 pb-10'>
-
-   
-           <div className="courseDetails">
-                <img src="course1.jpeg" alt="course1" className="img1 h-[10rem]"></img>
-                <h1>Full Stack Web Development 2.0</h1>
-                <div className='coursePrice flex flex-col gap-y-4 mt-8'>
-                  
-                   <h2>Hitesh Choudhary</h2>
-                   <span className='price text-xl font-bold'>Rs.3500.00</span>
-                </div>
+     
+         <div className="flex flex-col gap-y-4 text-center mt-10">
+                 <h1 className="text-5xl font-bold">Popular Programs</h1>
+                  <span className="2xl">Most in demand and watched by people.</span> 
+            </div>
                 
-            </div>   
 
-            <div className="courseDetails">
-                <img src="course2.jpeg" alt="course2" className="h-[10rem]"></img>
-                <h1>Full Stack Web Development 2.0</h1>
-
-                <div className='coursePrice flex flex-col gap-y-4 mt-8'>
-                     <h2>Hitesh Choudhary</h2>
-                     <span className='price text-xl font-bold'>Rs.3500.00</span>
-                </div>
-               
-            </div>   
-
-            <div className="courseDetails">
-                <img src="course3.jpeg" alt="course3" className="h-[10rem]"></img>
-                <h1>Full Stack Web Development 2.0</h1>
-                <div className='coursePrice flex flex-col gap-y-4 mt-8'>
-                     <h2>Hitesh Choudhary</h2>
-                     <span className='price text-xl font-bold'>Rs.3500.00</span>
-                </div>
-               
-            </div> 
-
-       </div>  
+<div className='courseDetails courses flex justify-evenly mt-20 pb-10 sm:flex flex-col'>
+      <Courses
+        imgSrc="course1.jpeg"
+        altText="course1"
+        courseTitle="Full Stack Web Development 2.0"
+        instructor="Hitesh Choudhary"
+        price="Rs.3500.00"
+      />
+      <Courses
+        imgSrc="course2.jpeg"
+        altText="course2"
+        courseTitle="Full Stack Web Development 2.0"
+        instructor="Hitesh Choudhary"
+        price="Rs.3500.00"
+      />
+      <Courses
+        imgSrc="course3.jpeg"
+        altText="course3"
+        courseTitle="Full Stack Web Development 2.0"
+        instructor="Hitesh Choudhary"
+        price="Rs.3500.00"
+      />
+</div>
       <Product />
       <Footer />
     </>
