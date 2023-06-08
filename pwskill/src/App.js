@@ -15,13 +15,13 @@ function App() {
       <Carousel />
       <Card1 />
      
-         <div className="flex flex-col gap-y-4 text-center mt-10">
-                 <h1 className="text-5xl font-bold">Popular Programs</h1>
-                  <span className="2xl">Most in demand and watched by people.</span> 
+         <div className="flex flex-col gap-y-4 text-center mt-10 ">
+                 <h1 className="text-5xl font-bold text-6xl font-bold text-center text-blue">Popular Programs</h1>
+                  <span className="text-2xl text-gray">Most in demand and watched by people.</span> 
             </div>
                 
 
-<div className='courseDetails courses flex justify-evenly mt-20 pb-10 sm:flex flex-col'>
+<div className='courseDetails courses flex justify-evenly mt-20 pb-10 '>
       <Courses
         imgSrc="course1.jpeg"
         altText="course1"
