@@ -15,7 +15,12 @@ function Navbar() {
          <div class="mt-8">
 
             <ul class="flex justify-evenly">
-               <li>Courses</li>
+               <li>Courses
+                  <ul>
+                      <li>Web Development</li>
+                  </ul>
+               </li>
+               
                <li>PW Skills Lab</li>
                <li>Job Portal</li>
                <li>Experience Portal</li>
