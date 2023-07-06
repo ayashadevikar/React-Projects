@@ -12,9 +12,11 @@ module.exports = {
        'yellow': '#f1c40f',
        'gray': '#757575',
     },
-    screens: {
-      'sm': '640px',
-    },
+    // screens: {
+    //  'md': '768px',
+    //  'sm': '640px',
+    //  'mobile': '100px',
+    // },
     
     extend: {
       

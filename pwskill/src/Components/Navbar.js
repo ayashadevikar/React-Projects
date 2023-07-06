@@ -14,7 +14,7 @@ function Navbar() {
 
          <div class="mt-8">
 
-            <ul class="flex justify-evenly">
+            <ul class="flex justify-evenly  ">
                <li>Courses</li>
                 <li>PW Skills Lab</li>
                <li>Job Portal</li>

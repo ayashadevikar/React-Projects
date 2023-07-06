@@ -3,9 +3,9 @@ import React from "react";
 function Product() {
     return(
         <>
-           <h1 className="text-6xl font-bold text-center text-blue">Our Products</h1>
+           <h1 className="font-bold text-5xl text-center text-blue">Our Products</h1>
 
-           <div className="flex justify-center mt-20 mb-20">
+           <div className="flex justify-center  mt-20 mb-20">
 
                  <div className="flex flex-col gap-y-8 items-center">
                      <img src="neurolab-icon.svg" alt="neurolab-icon"></img>

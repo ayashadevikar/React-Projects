@@ -1,44 +1,68 @@
 import React from "react";
+// import { useEffect, useState } from 'react';
 
 function Carousel(){
+
+        // useEffect(() => {
+        //   showSlides();
+        // }, []);
+      
+        // let slideIndex = 0;
+        // function showSlides() {
+        //   const slides = document.getElementsByClassName("slides")[0].children;
+        //   for (let i = 0; i < slides.length; i++) {
+        //     slides[i].style.display = "none";
+        //   }
+        //   slideIndex++;
+        //   if (slideIndex > slides.length) {
+        //     slideIndex = 1;
+        //   }
+        //   slides[slideIndex - 1].style.display = "block";
+        //   setTimeout(showSlides, 2000); // Change slide every 2 seconds
+        // }
+
+
+        // function changeSlide(n) {
+        //     slideIndex += n;
+        //     showSlides();
+        //   }
+     
     return(
         <>
 
-        <div class="carousel" data-carousel="slide">
+        <div class="carousel">
 
-        
-          <div id="item1" className="mt-8 data-carousel-item"> 
-               <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d428076281d608f5290/web.jpg" alt="img1" class="block "></img>
+        <div className="slides">
+
+       
+          <div id="item1" className="mt-8"> 
+               <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d428076281d608f5290/web.jpg" alt="img1"></img>
+          </div>
+
+          <div className="">
+              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="img2"></img>
+          </div>
+
+
+          <div className="hidden duration-700 ease-in-out">
+              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d078076282a178f528c/web.jpg" alt="img3"></img>
           </div>
 
           <div className="hidden duration-700 ease-in-out">
-              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" alt="LMS"  class="block "></img>
+              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d18807628ba7c8f528e/web.jpg" alt="img4"></img>
           </div>
 
-
-          <div className="hidden duration-700 ease-in-out">
-              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d078076282a178f528c/web.jpg" alt="lab"  class="block translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"></img>
-          </div>
-
-          <div className="hidden duration-700 ease-in-out">
-              <img src="https://cdn.pwskills.com/assets/uploads/banners/63a18d18807628ba7c8f528e/web.jpg" alt="exp"  class="block "></img>
-          </div>
+    
+          </div>  
     </div>
-    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-        
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-
-    </div>
-    <div className="flex justify-center w-full relative bottom-8 gap-2">
-          <a href="#item1" className="btn btn-xs bg-white text-black hover:text-white border-none rounded-full">1</a> 
-          <a href="#item2" className="btn btn-xs bg-white text-black hover:text-white border-none rounded-full">2</a> 
-          <a href="#item3" className="btn btn-xs bg-white text-black hover:text-white border-none rounded-full">3</a> 
-          <a href="#item4" className="btn btn-xs bg-white text-black hover:text-white border-none rounded-full">4</a>
-          <a href="#item5" className="btn btn-xs bg-white text-black hover:text-white border-none rounded-full">5</a>
-        </div>
+            <div className="flex gap-x-2 justify-center relative -mt-6">
+              <div className="dot h-2 w-2 rounded-full bg-gray hover:bg-white"></div>
+              <div className="dot h-2 w-2 rounded-full bg-gray hover:bg-white"></div>
+              <div className="dot h-2 w-2 rounded-full bg-gray hover:bg-white"></div>
+              <div className="dot h-2 w-2 rounded-full bg-gray hover:bg-white"></div>
+              </div>
+   
+    
         </>
     )
 }

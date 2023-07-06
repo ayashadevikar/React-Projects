@@ -4,7 +4,8 @@ function Card1(){
     return(
         <>
           <div className="flex flex-col gap-y-4 mt-14 ">
-               <h1 className="text-center sm:text-blue-800 ">“Pure Hardwork, No Shortcuts!”</h1>
+               <h1 className="font-bold text-5xl text-center text-blue">“Pure Hardwork, No Shortcuts!”</h1>
+               <span className="border-2 border-yellow w-[8rem] relative left-[44rem]"></span>
 
              <div className="icons flex justify-evenly ">
                 
